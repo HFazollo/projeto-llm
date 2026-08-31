@@ -52,7 +52,7 @@ O modelo é recarregado com `BitsAndBytesConfig(load_in_4bit=True)`. Os pesos s�
 
 ---
 
-## Função de Benchmark
+## Função de Benchmark do Modelo Quantizado
 
 ```python
 def benchmark(model, prompt, n=5):
